@@ -1,23 +1,30 @@
 # data-analysis
 
 ## Installation
+Update the `pip3` tool :
+```
+sudo pip3 install --upgrade pip --proxy=https://cache.univ-st-etienne.fr:3128
+```
 
 Install the required Python3 packages :
-
 ```
-sudo pip3 install --upgrade ipython numpy pandas matplotlib scipy \
-                            scikit-learn jupyter
+sudo pip3 install --upgrade ipython numpy pandas matplotlib scipy scikit-learn jupyter --proxy=https://cache.univ-st-etienne.fr:3128
+```
+
+Install TK for Python 3 (used by Matplotlib) :
+```
+sudo apt install python3-tk
 ```
 
 If you had installed the packages with something else than pip3 (like Anaconda),
 make sure your packages meet these requirements :
 
-  * ipython (6.2+)
-  * numpy (1.13+)
-  * pandas (0.20+)
-  * matplotlib (2.1.0+)
-  * scipy (0.19+)
-  * scikit-learn (0.19+)
+  * ipython (7.0+)
+  * numpy (1.15+)
+  * pandas (0.23+)
+  * matplotlib (3.0+)
+  * scipy (1.1.0+)
+  * scikit-learn (0.20+)
   * jupyter
 
 ## Instructions
